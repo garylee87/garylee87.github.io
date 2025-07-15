@@ -19,9 +19,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# MathJax 설정
-mathjax: true
-
 # GitHub Pages 설정
 baseurl: ""
 url: "https://garylee87.github.io"
