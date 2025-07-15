@@ -1,13 +1,16 @@
 title: "Gyeongseop's Blog"
 description: "딥러닝과 수학 공부를 정리합니다."
 theme: minima
+
+minima:
+  skin: dark
+
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-  math_engine_opts:
-    preview: true
-    preview_as_code: false
   input: GFM
+  auto_ids: true
+  hard_wrap: false
   syntax_highlighter: rouge
 
 highlighter: rouge
