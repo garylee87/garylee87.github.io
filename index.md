@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+use_math: true
 ---
 
 # Gyeongseop's Blog에 오신 것을 환영합니다!
