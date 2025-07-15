@@ -2,8 +2,11 @@ title: "Gyeongseop's Blog"
 description: "딥러닝과 수학 공부를 정리합니다."
 theme: minima
 
+# 테마 설정 업데이트
 minima:
   skin: dark
+  social_links:
+    github: garylee87
 
 markdown: kramdown
 kramdown:
@@ -12,6 +15,9 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: plaintext
+    css_class: 'highlight'
 
 highlighter: rouge
 
@@ -22,3 +28,6 @@ plugins:
 # GitHub Pages 설정
 baseurl: ""
 url: "https://garylee87.github.io"
+
+# MathJax 설정 추가
+mathjax: true
